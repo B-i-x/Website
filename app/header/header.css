@@ -1,0 +1,22 @@
+header {
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title {
+    font-weight: 500;
+    margin: 0;
+}
+
+#navbar > a {
+    font-weight: 300;
+}
+
+.logo {
+    max-height: 32px;
+    max-width: 32px;
+    height: auto;
+    width: auto;
+}
