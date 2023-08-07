@@ -8,15 +8,19 @@ header {
 .title {
     font-weight: 500;
     margin: 0;
-}
 
-#navbar > a {
-    font-weight: 300;
-}
+    display: flex;
+    flex-direction: row;
 
-.logo {
-    max-height: 32px;
-    max-width: 32px;
-    height: auto;
-    width: auto;
+    align-items: center;
 }
+    .title > p {
+        padding-left: 10px;
+    }
+
+    .logo {
+        max-height: 32px;
+        max-width: 32px;
+        height: auto;
+        width: auto;
+    }
