@@ -17,9 +17,11 @@ function load_title(header_wrapper) {
         let wrapper = document.createElement("div")
         wrapper.setAttribute("class", "section-link")
 
+       
         let text = document.createElement("a")
         text.textContent = section_name
         $(wrapper).append(text)
+    
 
         return wrapper
     }
@@ -35,7 +37,12 @@ function load_title(header_wrapper) {
     const projects = indv_section("Projects")
     const contact = indv_section("Contact")
 
-    $(title_wrapper).append(icon, projects, contact)
+    let spacer = document.createElement("div")
+    spacer.setAttribute("class", "spacer")
+
+
+
+    $(title_wrapper).append(icon, spacer, projects, contact )
 
     $(header_wrapper).append(title_wrapper)
 }

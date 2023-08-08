@@ -4,9 +4,12 @@
     justify-content: flex-start;
     align-items: center;
 
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
-    margin: 8px
+    margin: 8px;
+
+    max-height: 15vh;
+    max-width: 100%;
 }
 
 .title {
@@ -17,6 +20,8 @@
     flex-direction: row;
 
     align-items: center;
+    max-width: 100%;
+
 }
 
     .logo {
@@ -27,8 +32,15 @@
     }
 
     .title > .section-link {
-        margin-left: 10px;
-        margin-right: 10px;
 
         font-weight: 300;
+        padding-left: 1rem;
     }
+
+.title > .spacer {
+    flex: 1;
+}
+
+    
+
+    
