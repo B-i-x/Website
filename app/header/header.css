@@ -5,11 +5,12 @@
     align-items: center;
 
     flex-wrap: wrap;
+
+    margin: 8px
 }
 
 .title {
-    font-size: 4vh;
-    font-weight: 500;
+    font-size: 3vh;
     margin: 0;
 
     display: flex;
@@ -17,21 +18,17 @@
 
     align-items: center;
 }
-    .title > p {
-        padding-left: 10px;
-        margin: 0;
-    }
 
     .logo {
-        max-height: 32px;
-        max-width: 32px;
+        max-height: 40px;
+        max-width: 40px;
         height: auto;
         width: auto;
     }
 
-#navbar.section-link {
-    margin-left: 10px;
-    margin-right: 10px;
+    .title > .section-link {
+        margin-left: 10px;
+        margin-right: 10px;
 
-    font-weight: 300;
-}
+        font-weight: 300;
+    }
