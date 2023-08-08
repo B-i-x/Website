@@ -1,11 +1,14 @@
-header {
+#header {
     display: flex;
 
     justify-content: flex-start;
     align-items: center;
+
+    flex-wrap: wrap;
 }
 
 .title {
+    font-size: 4vh;
     font-weight: 500;
     margin: 0;
 
@@ -16,6 +19,7 @@ header {
 }
     .title > p {
         padding-left: 10px;
+        margin: 0;
     }
 
     .logo {
@@ -24,3 +28,10 @@ header {
         height: auto;
         width: auto;
     }
+
+#navbar.section-link {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-weight: 300;
+}
